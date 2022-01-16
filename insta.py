@@ -29,7 +29,7 @@ try:
     __res = requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all').text
     open('Data/proxy.txt','w').write(__res)
 except:
-    __sep = requests.get('https://raw.githubusercontent.com/mahlepa277/Premium/main/Data/proxy3.txt').text
+    __sep = requests.get('https://raw.githubusercontent.com/baj007/madang/main/Data/proxy3.txt').text
     open('Data/proxy.txt','w').write(__sep)
 # Requests Session
 ses = Session()
