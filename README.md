@@ -5,8 +5,8 @@
     $ pkg install python
     $ pip install requests
     $ pip install futures
-    $ git clone https://github.com/mahlepa277/Premium
-    $ cd Premium
+    $ git clone https://github.com/baj007/madang
+    $ cd madang
     $ git pull
-    $ python Prem.py
+    $ python insta.py
 
